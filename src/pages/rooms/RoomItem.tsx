@@ -19,7 +19,10 @@ function RoomItem({ item }: RoomItemProps) {
             <label htmlFor='spots'>Email:</label>
             <input type='text' id='email' name='email' />
           </div>
-          <button className='bg-primary rounded text-white text-xs font-bold text-center w-1/5 px-[9px] py-[3px] leading-6 disabled:bg-txt-secondary'>
+          <button
+            onClick={() => setIsBooking(!isBooking)}
+            className='bg-primary rounded text-white text-xs font-bold text-center w-1/5 px-[9px] py-[3px] leading-6 disabled:bg-txt-secondary'
+          >
             Confirm
           </button>
         </div>
