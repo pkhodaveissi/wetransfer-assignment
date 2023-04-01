@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { RoomType } from './useRooms'
+import { RoomType } from '../useRooms'
 
 type RoomItemProps = {
   item: RoomType

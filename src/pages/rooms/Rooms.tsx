@@ -1,6 +1,6 @@
 import { useFetchRooms } from './useRooms'
-import RoomList from './RoomList'
-import RoomsSkeleton from './RoomsSkeleton'
+import RoomList from './components/RoomList'
+import RoomsSkeleton from './components/RoomsSkeleton'
 
 function Rooms() {
   const { data, error, status } = useFetchRooms()
