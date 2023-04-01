@@ -14,13 +14,16 @@ function Rooms() {
           sodales. Tempus quis et.
         </p>
       </section>
+      {/* a nice state machine using an object */}
       {
         {
           success: data?.rooms ? <RoomList rooms={data.rooms} /> : null, // the ternary is there so the RoomList function never runs if we don't have data
-          error: <div>{error instanceof Error ? error.message : null}</div>,
+          error: <div>{error instanceof Error ? error.message : null}</div>, // another ternary with similar purpose
           loading: <RoomsSkeleton />,
         }[status]
       }
+      {/* end: a nice state machine using an object */}
+      
     </div>
   )
 }
