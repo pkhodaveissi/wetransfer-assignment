@@ -7,6 +7,7 @@ This repository contains the code for the WeTransfer Assignment.
 
 To use this code, you will need to have Node.js and npm installed on your machine. Once you have those installed, you can clone this repository and install the necessary dependencies by running the following commands:
  
+    wetransfer-assignment
     yarn install
 Once the dependencies are installed, you can run the code by executing the following command:
 
