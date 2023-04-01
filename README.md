@@ -5,7 +5,7 @@ This repository contains the code for the WeTransfer Assignment.
 
 ## Usage
 
-To use this code, you will need to have Node.js and npm installed on your machine. Once you have those installed, you can clone this repository and install the necessary dependencies by running the following commands:
+To use this code, you will need to have Node.js, npm and yarn installed on your machine. Once you have those installed, you can clone this repository and install the necessary dependencies by running the following commands:
  
     cd wetransfer-assignment
     yarn install
@@ -17,7 +17,7 @@ This will start the server on port 3000, and you can access it by navigating to 
 
 ## Scripts
 
-This project includes several scripts that you can run using `npm run <script name>`:
+This project includes several scripts that you can run using `yarn <script name>`:
 
 -   `start`: Starts the development server
 -   `build`: Builds the project for production
