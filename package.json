@@ -1,7 +1,7 @@
 {
-  "name": "react-typescript",
+  "name": "wetransfer-assessment",
   "version": "1.0.0",
-  "description": "React and TypeScript example starter project",
+  "description": "React and TypeScript assessment project",
   "keywords": [
     "typescript",
     "react",
