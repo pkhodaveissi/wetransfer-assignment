@@ -9,6 +9,8 @@
   ],
   "main": "src/index.tsx",
   "dependencies": {
+    "@tanstack/react-query": "^4.28.0",
+    "axios": "^1.3.4",
     "loader-utils": "3.2.1",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",

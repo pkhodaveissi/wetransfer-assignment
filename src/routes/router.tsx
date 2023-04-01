@@ -1,4 +1,5 @@
 import { Navigate, createBrowserRouter } from 'react-router-dom'
+import Rooms from '../pages/rooms'
 
 const router = createBrowserRouter([
   {
@@ -7,7 +8,7 @@ const router = createBrowserRouter([
   },
   {
     path: 'rooms',
-    element: <div>rooms</div>,
+    element: <Rooms />,
   },
 ])
 
