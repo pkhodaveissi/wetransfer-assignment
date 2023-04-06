@@ -2,12 +2,12 @@ import RoomItem from './RoomItem'
 import { RoomType } from '../useRooms'
 
 type RoomListProps = {
-  rooms: RoomType[]
+  items: RoomType[]
 }
-function RoomList({ rooms }: RoomListProps) {
+function RoomList({ items }: RoomListProps) {
   return (
     <div className='grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
-      {rooms.map((item) => (
+      {items.map((item) => (
         <RoomItem key={item.name} item={item} />
       ))}
     </div>
